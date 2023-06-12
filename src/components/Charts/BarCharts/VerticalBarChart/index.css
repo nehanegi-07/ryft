@@ -1,0 +1,132 @@
+/* .css-vt7cuc-MuiListItemText-root  .css-zgxi8s-MuiTypography-root{
+  padding: 4px 12px;
+  width:140px;
+} */
+
+/* .css-vj1n65-MuiGrid-root .css-17li347-MuiDivider-root {
+  margin: 0;
+}
+
+.css-vj1n65-MuiGrid-root .css-1j13ek9-MuiGrid-root {
+  padding: 4px 34px;
+}
+
+.css-k008qs .css-1if8ia8-MuiTypography-root {
+  color: #007fff;
+}
+
+.css-k008qs .css-pzgsuo-MuiButtonBase-root-MuiIconButton-root {
+  border: 1px solid #007fff;
+}
+
+.css-14yd0zh .css-wso69-MuiButtonBase-root-MuiIconButton-root {
+  background-color: #007fff;
+}
+
+.css-1yv9hf3 .css-1kdktnr-MuiButtonBase-root-MuiIconButton-root {
+  border: #007fff;
+  background-color: #007fff;
+}
+
+.css-1yv9hf3 .css-1kdktnr-MuiButtonBase-root-MuiIconButton-root:hover {
+  border: #007fff;
+  background-color: #007fff;
+}
+
+.css-1q7q0nv .css-1if8ia8-MuiTypography-root {
+  color: #007fff;
+}
+
+.css-vj1n65-MuiGrid-root .css-n4phvm-MuiList-root {
+  padding-top: 67px;
+}
+
+.css-17szrw-MuiTypography-root {
+  padding: 4px 12px;
+}
+
+.css-1yv9hf3 .css-wso69-MuiButtonBase-root-MuiIconButton-root {
+  border: #007fff;
+  background-color: #007fff;
+}
+.css-1yv9hf3 .css-wso69-MuiButtonBase-root-MuiIconButton-root:hover {
+  border: #007fff;
+  background-color: #007fff;
+}
+.css-pzgsuo-MuiButtonBase-root-MuiIconButton-root {
+  border: #007fff;
+}
+
+.css-k008qs .css-1kdktnr-MuiButtonBase-root-MuiIconButton-root {
+  border: #007fff;
+  background-color: #007fff;
+}
+
+.css-k008qs .css-wso69-MuiButtonBase-root-MuiIconButton-root {
+  border: #007fff;
+  background-color: #007fff;
+} */
+
+
+/* .css-vt7cuc-MuiListItemText-root {
+  margin-top: 4px !important;
+  margin-bottom: 4px !important;
+  width: 90px;
+  padding: 0 6px;
+}
+
+
+.css-xdiy5h-MuiListItemText-root {
+  margin-top: 4px !important;
+  margin-bottom: 4px !important;
+  width: 90px;
+  padding: 0 6px;
+} */
+
+/* for user calender */
+.datepiker .MuiListItemText-root {
+  margin-top: 4px !important;
+  margin-bottom: 4px !important;
+  width: 90px;
+  padding: 0 6px;
+}
+
+
+/* for live */
+.css-rfnosa-MuiGrid-root .css-zws9p5 {
+  padding-top: 67px !important;
+}
+ .css-zws9p5 {
+  padding-top: 67px !important;
+}
+.css-1fre31j {
+  padding: 4px 34px !important;
+}
+
+
+
+/* for admin calender */
+.datepiker .MuiListItemText-root{
+  margin-top: 4px !important;
+  margin-bottom: 4px !important;
+  width: 90px;
+  padding: 0 6px;
+}
+
+@media (max-width: 1500px) {
+  .datepiker > div:first-child{
+    width: 400px;
+    overflow-x: auto;
+    background: white;
+    box-shadow: none !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .datepiker > div:first-child{
+    width: 300px;
+    overflow-x: auto;
+    background: white;
+    box-shadow: none !important;
+  }
+}

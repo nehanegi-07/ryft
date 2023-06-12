@@ -1,0 +1,95 @@
+/**
+=========================================================
+* Material Dashboard 2 PRO React - v2.1.0
+=========================================================
+
+* Product Page: https://www.creative-tim.com/product/material-dashboard-pro-react
+* Copyright 2022 Creative Tim (https://www.creative-tim.com)
+
+Coded by www.creative-tim.com
+
+ =========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+*/
+
+// prop-types is a library for typechecking of props
+import PropTypes from "prop-types";
+
+// @mui material components
+import Grid from "@mui/material/Grid";
+
+// Material Dashboard 2 PRO React components
+import MDBox from "components/MDBox";
+// import MDTypography from "components/MDTypography";
+
+// Material Dashboard 2 PRO React examples
+import DefaultNavbar from "examples/Navbars/DefaultNavbar";
+import PageLayout from "examples/LayoutContainers/PageLayout";
+
+// Authentication layout components
+import Footer from "layouts/authentication/components/Footer";
+
+// Material Dashboard 2 PRO React page layout routes
+import pageRoutes from "page.routes";
+
+function CoverLayout({ coverHeight, image, children }) {
+  return (
+    <PageLayout background="white" image={image}>
+      {/* <DefaultNavbar
+        routes={pageRoutes}
+        action={{
+          type: "external",
+          route: "https://creative-tim.com/product/material-dashboard-pro-react",
+          label: "buy now",
+        }}
+        transparent
+        light
+      /> */}
+      {/* <MDBox
+        width="calc(100% - 2rem)"
+        minHeight={coverHeight}
+        borderRadius="xl"
+        mx={2}
+        my={2}
+        pt={6}
+        pb={28}
+        sx={{
+          backgroundImage: ({ functions: { linearGradient, rgba }, palette: { gradients } }) =>
+            image &&
+            `${linearGradient(
+              rgba(gradients.dark.main, 0.4),
+              rgba(gradients.dark.state, 0.4)
+            )}, url(${image})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+        }}
+      /> */}
+      <MDBox
+        mt={{ xs: 9, sm: 10, lg: 14 }}
+        px={1}
+        width="calc(100% - 2rem)"
+        mx="auto"
+        sx={{ display: "flex" }}
+      >
+        {children}
+      </MDBox>
+      {/* <Footer /> */}
+    </PageLayout>
+  );
+}
+
+// Setting default props for the CoverLayout
+CoverLayout.defaultProps = {
+  coverHeight: "35vh",
+};
+
+// Typechecking props for the CoverLayout
+CoverLayout.propTypes = {
+  coverHeight: PropTypes.string,
+  image: PropTypes.string.isRequired,
+  children: PropTypes.node.isRequired,
+};
+
+export default CoverLayout;

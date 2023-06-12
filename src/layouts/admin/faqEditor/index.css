@@ -1,0 +1,19 @@
+.demo-editor .rdw-editor-main{
+      height: 100%;
+    overflow: auto;
+    box-sizing: border-box;
+}
+
+.demo-wrapper {
+    width: 100% ;
+    display: block ;
+    margin-bottom: 25px;
+   
+}
+.demo-editor {
+    height: 465px;
+    border: 1px solid #F1F1F1;
+    background-color: #FFF;
+    padding: 5px;
+ 
+}
